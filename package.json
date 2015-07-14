@@ -1,5 +1,5 @@
 {
-  "name": "@michaelfoss/numberformatter",
+  "name": "michaelfoss-numberformatter",
   "version": "0.0.1",
   "description": "Number formatter for NPM publication testing.",
   "main": "index.js",

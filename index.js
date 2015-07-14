@@ -6,5 +6,5 @@
  * @return {string}
  */
 module.exports = function(number) {
-  return number.toLocaleString();
+    return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
