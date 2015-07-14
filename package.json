@@ -1,9 +1,10 @@
 {
   "name": "michaelfoss-numberformatter",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Number formatter for NPM publication testing.",
   "main": "index.js",
   "scripts": {
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*",
     "test": "mocha --reporter nyan"
   },
   "repository": {
@@ -23,13 +24,12 @@
   "homepage": "https://github.com/MichaelFoss/numberformatter",
   "devDependencies": {
     "chai": "^3.0.0",
+    "coveralls": "^2.11.2",
+    "istanbul": "^0.3.17",
     "mocha": "^2.2.5"
   },
   "directories": {
     "test": "test"
-  },
-  "dependencies": {
-    "chai": "^3.0.0"
   },
   "engines": {
     "node": ">=0.12.6"
