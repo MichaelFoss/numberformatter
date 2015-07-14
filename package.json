@@ -1,6 +1,6 @@
 {
   "name": "michaelfoss-numberformatter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Number formatter for NPM publication testing.",
   "main": "index.js",
   "scripts": {
