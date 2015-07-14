@@ -3,6 +3,9 @@ Number Formatter
 
 A small library that adds commas to numbers
 
+[![Build Status](https://travis-ci.org/MichaelFoss/numberformatter.svg?branch=master)](https://travis-ci.org/MichaelFoss/numberformatter)
+[![Coverage Status](https://coveralls.io/repos/MichaelFoss/numberformatter/badge.svg?branch=master&service=github)](https://coveralls.io/github/MichaelFoss/numberformatter?branch=master)
+
 ## Installation
 
   `npm install @jdaudier/number-formatter`
